@@ -1,0 +1,7 @@
+sudo grep error /var/log/syslog     #To filter errors
+
+tail file.txt       # To display the last part of file
+
+cat file.txt      # To display file
+
+less /home/linux/devops/filename    # To display large file without giving any space
