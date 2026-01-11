@@ -77,12 +77,6 @@ sudo grep warning /var/log/syslog >> error_logs.txt
 4️⃣ View Logs Using less
 less /var/log/syslog
 
-5️⃣ Advanced Filtering Using awk
-awk '{print $1, $2, $3, $5}' /var/log/syslog
-
-📊 Sample Output
-Jan 10 12:22 systemd Error starting service
-Jan 10 12:25 sshd Failed password for user
 
 🧠 Why This Project Is Important?
 
@@ -124,8 +118,6 @@ sudo grep error /var/log/syslog
 # Save output to file
 sudo grep error /var/log/syslog > error_logs.txt
 
-# Advanced filtering
-awk '{print $1, $2, $3, $5}' /var/log/syslog
 
 
 Make executable:
